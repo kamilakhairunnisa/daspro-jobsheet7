@@ -5,13 +5,13 @@ public class SiakadWhile08 {
 
 
         int nilai;
-        int jml;
+        int Jml;
         int i = 0; // Inisialisasi i dengan 0
 
         System.out.println("Masukkan jumlah mahasiswa: ");
-        jml = sc.nextInt();
+        Jml = sc.nextInt();
 
-        while (i < jml) {
+        while (i < Jml) {
             System.out.println("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
