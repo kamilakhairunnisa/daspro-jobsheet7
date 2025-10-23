@@ -3,13 +3,13 @@ public class KafeDoWhile08 {
     public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);
 
-        int kopi,teh,roti;
+        int kopi,teh,roti,totalHarga;
 
         String namaPelanggan;
         int hargaKopi = 12000;
         int hargaTeh = 7000;
         int hargaRoti = 20000;
-        int totalHarga;
+    
 
         do {
             System.out.println("Masukkan nama pelanggan (ketik 'batal'vuntuk keluar): ");
@@ -24,11 +24,13 @@ public class KafeDoWhile08 {
             teh = sc.nextInt();
             System.out.println("Jumlah roti: ");
             roti = sc.nextInt();
+
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
             System.out.println("Tota yang harus dibayar : RP " + totalHarga);
-            sc.nextInt();
+            sc.nextLine();
         } while (true);
 
         System.out.println("Semua transaksi selesai.");
+        sc.close();
     }
 }
