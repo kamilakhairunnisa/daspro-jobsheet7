@@ -5,11 +5,11 @@ public class Tugas1_08 {
 
         int HARGA_TIKET = 50000;
         
-        // Variabel untuk menghitung total penjualan harian
+        // untuk menghitung total penjualan harian
         int totalPenjualanHarian = 0;
         int totalTiketTerjual = 0;
         
-        // Variabel lokal untuk setiap transaksi
+        //  lokal untuk setiap transaksi
         int jumlahTiket, harga= 0;
         double diskon = 0;
         int hargaTransaksi = 0;
