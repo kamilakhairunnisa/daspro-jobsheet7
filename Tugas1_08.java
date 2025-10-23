@@ -3,7 +3,7 @@ public class Tugas1_08 {
     public static void main(String[] args) {
     Scanner sc= new Scanner (System.in); 
 
-        int HARGA_TIKET = 50000;
+        int HARGATIKET = 50000;
         
         // untuk menghitung total penjualan harian
         int totalPenjualanHarian = 0;
@@ -50,7 +50,7 @@ public class Tugas1_08 {
             }
             
             // 2. Hitung Harga Transaksi
-            int hargaBruto = (int)jumlahTiket * HARGA_TIKET;
+            int hargaBruto = (int)jumlahTiket * HARGATIKET;
             int jumlahDiskon = (int)(hargaBruto * diskon);
             hargaTransaksi = hargaBruto - jumlahDiskon;
 
